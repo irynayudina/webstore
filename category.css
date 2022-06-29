@@ -1,0 +1,94 @@
+:root {
+    --white: #ffffff;
+    --avocado: #568203;
+    --gold: #ff9100;
+}
+body {
+    font-family: 'Roboto', serif;
+}
+.cat-img {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+}
+.cat-img  img {
+    width: 100%;
+}
+.add {
+    position: fixed;
+    top: 560px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+.add > div {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.445);
+}
+.add p:first-child {
+    display: none;
+    position: absolute;
+    top: -100px;
+    padding: 11px;
+    color: var(--gold);
+    font-size: 20px;    
+    transition: transform .4s;
+    transform: rotate(45deg);
+}
+.add:hover p:first-child {
+    display: inline;
+}
+.add:hover {    
+    transition: transform .2s;
+    transform: scale(1.2) translateX(10px);
+}
+.add p:nth-child(2){
+    font-size: 50px;
+    color: var(--gold);
+    position: absolute;
+    top: -100px;
+}
+.add img{
+    width: 100%;
+}
+.add:hover img {    
+    transition: transform 5s;
+    transform: rotate(360deg);
+}
+.filter {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 80%;
+    height: 60px;
+    border-style: solid;
+    border-color: var(--avocado);
+    margin-bottom: 80px;
+    font-size: 20px;
+}
+.filter fieldset {
+    border: none;
+}
+.filter p {
+    margin: 0;
+}
+.filter fieldset input{
+    width: 100px;
+    border-color: transparent;
+    background-color: #5682039a;
+}
+.filter p ~ * {
+    display: none;
+}
+.filter fieldset:hover {
+    transition: transform .4s;
+    transform: scale(1.2);
+}
+.filter fieldset:hover *{    
+    display: inline-block;
+}
+label {
+    background-color: #fff;
+}

@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto';
+}
+.place-form {
+    background-image: url(vegetables.jpg);
+    background-size: contain;
+    background-position: center;    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form {
+    margin: auto;
+    padding: 30px;
+    padding-top: 200px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.493); */
+    background-color: #ffffff3b;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+#register label {
+    color: red;
+    font-size: 20px;
+    font-weight: 900;
+}
+#register input {
+    border-color: transparent;
+    border-bottom-color: var(--avocado);
+    width: 400px;
+    height: 20px;
+    background-color: transparent;
+    font-size: 20px;
+}
+#register button {
+    border-color: var(--avocado);
+    border-radius: 5px;
+    border-style: solid;
+    margin: 20px;
+    margin-left: 0;
+    color: #fff;
+    font-size: 30px;
+    background-color: var(--avocado);
+}
+.log {
+    position: relative;
+    top: 0;
+    left: 150px;
+    z-index: 100;
+    font-size: 20px;
+    font-weight: 900;
+}
+#register {
+    background-color: #ffffff70;
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+  .container {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }

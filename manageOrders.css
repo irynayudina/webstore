@@ -1,0 +1,105 @@
+.main-profile {
+    padding: 50px;
+    background-color: #fff;    
+}
+div img {
+    width: 100%;
+}
+img {
+    margin: auto;
+}
+.username span{
+    font-size: 25px;
+    font-weight: 900;
+}
+#prods {
+    display: grid;
+    row-gap: 80px;
+    column-gap: 80px;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+}
+.prodsItem {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: auto;
+}
+.prodsItemPic {
+    width: 50px;
+    height: 50px;
+    background: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.ord {
+    margin-bottom: 50px;
+    border: 1px solid rgb(148, 148, 148);
+    padding: 20px;
+}
+.ord:hover {
+    transition: all .6s;
+    box-shadow: 0px 0px 10px 10px #ff9100af;
+}
+.descOrd {
+    width: 200px;      
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin: auto;
+}
+.ord div:first-child {    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.ord  p{
+    font-size: 20px;
+}
+.odersInfo {
+    width: 80%;
+}
+.info {
+    padding-top: 20px;
+}
+.tel {
+    text-decoration: underline;
+    font-style: italic;    
+    font-size: 10px;
+    width: 200px;
+    display: inline-block;
+}
+.mail {
+    text-decoration: underline;
+    font-style: italic;    
+    font-size: 10px;
+    width: 400px;
+    display: inline-block;
+}
+.title, .descr {    
+    width: 200px;
+    display: inline-block;
+}
+.ordPrice {
+    color: red;
+    font-weight: 900;
+}
+.botOrd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.botOrd button {
+    border-color: var(--avocado);
+    border-radius: 5px;
+    border-style: solid;
+    margin: 20px;
+    margin-left: 0;
+    color: #fff;
+    font-size: 30px;
+    background-color: var(--avocado);
+}

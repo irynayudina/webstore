@@ -1,0 +1,45 @@
+
+.add .i1{
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 100px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.add .i2{
+    bottom: 0;
+    left: 0;   
+    width: 100px;
+    height: 15px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.add .i3{
+    top: 0;
+    right: 0;   
+    width: 15px;
+    height: 100px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.add .i4{
+    top: 0;
+    left: 0;  
+    width: 100px;
+    height: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.add {
+    position: fixed;
+    top: 560px;
+    left: 0;
+    background-color: var(--avocado);    
+    border-radius: 25px; 
+    border-color: rgba(255, 255, 255, 0.445);
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}

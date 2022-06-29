@@ -1,0 +1,63 @@
+
+.pic {
+    width: 200px;
+    overflow: hidden;
+}
+.pic img {
+    width: 100%;
+}
+.prodOrd input {
+    width: 50px;
+}
+.quan {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+.sub {
+    border-style: solid;
+    width: 20px;
+    text-align: center;
+    color: rgb(56, 55, 55);
+    cursor: default;
+}
+.prodOrd {
+    width: 60%;
+} 
+.ordItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border: none;
+    border-bottom-color: rgb(126, 122, 122);;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 10px;
+}
+.priceOrdProd {
+    color: red;
+    font-weight: 900;
+    font-size: 20px;
+    cursor: default;
+}
+.priceOrdProd:hover {
+    transition: all 0.4s;
+    transform: scale(1.2);
+}
+.delProd {
+    color: rgb(56, 55, 55);
+    cursor: default;
+}
+.delProd:hover {
+    transition: all 0.4s;
+    transform: scale(2);
+}
+.prodOrdName {
+    font-size: 24px;
+}
+.botOrd {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

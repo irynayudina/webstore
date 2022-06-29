@@ -1,0 +1,18 @@
+dt {
+    font-weight: 900;
+}
+a:hover {
+    color: var(--gold);
+}
+
+.sideopt {
+    width: 300px;
+    position: relative;
+    left: -100px;
+    background-color: rgba(128, 255, 0, 0.507);
+    text-align: center;
+    font-size: 20px !important;
+}
+.sideopt ul{
+    list-style: none;
+}

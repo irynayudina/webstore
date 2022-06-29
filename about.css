@@ -1,0 +1,43 @@
+:root {
+    --white: #ffffff;
+    --avocado: #568203;
+    --gold: #ff9100;
+  }
+body{
+    font-family: 'Dancing Script', serif;
+}
+.article {
+    width: 80%;
+    height: 800px;
+    color: var(--gold);
+    text-align: center;
+}
+.main-body-content {
+    background-image: url(images/olive-bg.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: top 0px right 0px;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    margin-right: 5%;
+}
+.article  h2 {
+    margin-bottom: 25px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.article section:nth-child(odd) {
+    font-family: 'Indie Flower', serif;
+    font-weight: 900;
+}
+section p {
+    font-size: 20px;
+}
+section:hover {
+    background-color: rgba(255, 255, 255, 0.753);
+    transition: all 1s ease;
+}

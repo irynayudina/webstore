@@ -1,0 +1,75 @@
+table {    
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 20px;
+}
+table + p {
+    font-size: 20px;
+}
+td{
+    width: auto;
+    padding: 50px;
+    border: 1px solid #ddd;
+}
+th {
+    border: 1px solid #ddd;
+    font-style: italic;
+    font-weight: 500;    
+    font-size: 20px;
+}
+#sumPrice {
+    font-weight: 900;
+    color: var(--gold);
+    font-size: 30px;
+}
+table {    
+    font-size: 20px;
+    background-color: #fff !important;
+    color: var(--avocado);
+}
+#nameBasket {
+    font-size: 20px;
+}
+#priceBasket {    
+    color: var(--gold);
+}
+.buy { 
+    border-color: var(--avocado);
+    border-radius: 5px;
+    width: 300px;
+    border-style: solid;
+    margin: 20px;
+    margin-left: 0;
+    color: #fff;
+    font-size: 30px;
+    background-color: var(--avocado);
+}
+.pic {
+    width: 200px;
+    overflow: hidden;
+}
+.pic img {
+    width: 100%;
+}
+
+.botOrd {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.sub {
+    border-style: solid;
+    width: 20px;
+    text-align: center;
+    color: rgb(56, 55, 55);
+    cursor: default;
+}
+.del {
+    cursor: default;
+}
+.del:hover {    
+    transition: all 0.4s;
+    transform: scale(1.2);
+    color: red;
+}

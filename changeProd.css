@@ -1,0 +1,58 @@
+.landing {
+    margin: auto;
+    position: relative;
+    top: 100px;
+    width: 80%;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding: 4px;
+    color: black;
+    font-family: 'Prosto one';
+    overflow: hidden;
+}
+.reg {
+    background-color: #fff;
+    border-radius: 20px;
+    padding-left: 20px;    
+    padding-top: 20px;
+    width: 98%;
+    display: inline-block;
+    margin-block-end: 4px;
+}
+.reg h2 {
+    font-size: 30px;
+}
+#login input {
+    border-color: transparent;
+    border-bottom-color: var(--avocado);
+    margin-top: 10px;
+}
+#login button {
+    border-color: var(--avocado);
+    border-radius: 5px;
+    border-style: solid;
+    margin: 20px;
+    margin-left: 0;
+    color: #fff;
+    font-size: 30px;
+    background-color: var(--avocado);
+}
+.register {
+    position: absolute;
+    top: 304px;
+    left: 230px;
+}
+.reg img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+form div {
+    position: absolute;
+    top: 26%;
+    left: 60%;
+}
+footer {
+    margin-top: 100px;
+}

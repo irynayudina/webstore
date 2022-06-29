@@ -1,0 +1,93 @@
+body {
+    background: white;
+}
+.view {
+    color: #568203;
+    margin: auto;
+    margin-top: 4px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 98%;
+    background-color: #fff;
+}
+.pic {
+    width: 200px;
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.pic img {
+    width: 100%;
+}
+.pic:hover {
+    transition: all .8s;
+    transform: scale(1.2);
+}
+.pic:hover img {
+    transition: all .4s;
+    transform: scale(1.4);
+}
+.nutr dd {
+    color: #ff9100;
+}
+.desc {
+    position: relative;
+    left: 400px;
+    width: 50%;
+}
+#star {
+    height: 30px;
+    width: auto;
+    color: #ff9100;
+}
+#rating {
+    display: inline;
+}
+#prod {
+    color: #ff9100;
+}
+.buy-sect {
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    right: 90px;
+    background-color: rgba(128, 255, 0, 0.507);
+    text-align: center;
+}
+.view button {
+    border-color: var(--avocado);
+    border-radius: 5px;
+    border-style: solid;
+    color: #fff;
+    font-size: 20px;
+    background-color: var(--avocado);
+}
+.add-review {
+    padding-left: 20px;
+    border-color: #ff3300;
+    border-width: 2px;
+    border-top-style: dashed;
+}
+#quanAvail, #packPrice {
+    color: #ff9100;
+    text-decoration: underline;
+}
+#revievs {
+    width: 70%;
+}
+.rev {
+    width: 80%;
+    background-color: rgba(128, 255, 0, 0.349);
+    margin-bottom: 10px;
+}
+.rev .answ *{
+    position: relative;
+    top: -40px;
+    left: 80%;
+    color: var(--gold);
+}
+.rev .answ *:hover {
+    text-decoration: underline;
+}

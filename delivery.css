@@ -1,0 +1,45 @@
+:root {
+    --white: #ffffff;
+    --avocado: #568203;
+    --gold: #ff9100;
+  }
+  
+body{
+    font-family: 'Roboto', serif !important;
+}
+
+.article {
+    width: 82%;
+    color: var( --avocado);
+    background-color: rgba(255, 255, 255, 0.781);
+}
+.main-body-content {
+    background-image: url(images/delivery.png);
+    background-size: 20%;
+    background-repeat: repeat;
+    background-position: top 0px right 0px;
+}
+.article h2 {
+    font-size: 60px;
+    padding: 10px;
+    color: var(--gold);
+}
+.article h3 {
+    font-size: 40px;
+    padding: 10px;
+}
+.article h4 {
+    font-size: 30px;
+    padding: 10px;
+}
+.article p {
+    font-size: 20px;
+    padding: 10px;
+}
+.article li p {
+    font-size: 20px;
+    padding: 0;
+}
+.article span {
+    font-weight: bold;
+}

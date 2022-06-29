@@ -1,0 +1,68 @@
+:root {
+    --white: #ffffff;
+    --avocado: #568203;
+    --gold: #ff9100;
+  }
+.landing {
+    margin: auto;
+    position: relative;
+    top: 100px;
+    width: 40%;
+    height: 350px;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding: 4px;
+    color: black;
+    font-family: 'Prosto one';
+    overflow: hidden;
+}
+.reg {
+    background-color: #fff;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-left: 20px;    
+    padding-top: 20px;
+    width: 60%;
+    display: inline-block;
+    margin-block-end: 4px;
+    z-index: 10;
+}
+.reg img {
+    width: 100px;
+    position: relative;
+    top: -20px;
+    left: -10px;
+}
+.reg + img {
+    width: 250px;
+    float: right;
+    position: absolute;
+    top: -4px;
+    z-index: 1;
+}
+.reg h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+}
+#login input {
+    border-color: transparent;
+    border-bottom-color: var(--avocado);
+    margin-top: 10px;
+}
+#login button {
+    border-color: var(--avocado);
+    border-radius: 5px;
+    border-style: solid;
+    margin: 20px;
+    margin-left: 0;
+    color: #fff;
+    font-size: 30px;
+    background-color: var(--avocado);
+}
+.register {
+    position: relative;
+    top: 0;
+    left: 130px;
+}
